@@ -103,7 +103,7 @@ function App() {
       if (typeof window.ethereum !== "undefined") {
         window.ethereum.on("accountsChanged", accountsChangedHandler);
       } else {
-        alert("Install metamask to continue");
+        setResult("Install metamask to continue");
       }
     } catch (error) {
       setResult(error.message);
