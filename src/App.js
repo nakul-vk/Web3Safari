@@ -6,7 +6,7 @@ import ConnectButton from "./Components/ConnectButton/ConnectButton";
 import Payment from "./Components/Payment/Payment";
 import Balance from "./Components/Balance/Balance";
 import Result from "./Components/Result/Result";
-import Withdraw from "./Components/Witdraw/Withdraw";
+import Withdraw from "./Components/Withdraw/Withdraw";
 import Instructions from "./Components/Instructions/Instructions";
 import Footer from "./Components/Footer/Footer";
 
