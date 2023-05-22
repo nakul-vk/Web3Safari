@@ -18,6 +18,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/n4ku1-v454n7h-vk/"
           target="_blank"
+          rel="noreferrer"
           className="external-links"
         >
           <AiFillLinkedin />
@@ -25,6 +26,7 @@ const Footer = () => {
         <a
           href="https://github.com/nakul-vk"
           target="_blank"
+          rel="noreferrer"
           className="external-links"
         >
           <FaGithub />

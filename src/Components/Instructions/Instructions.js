@@ -14,7 +14,7 @@ const Instructions = () => {
         <li>
           Ensure that you have a web3 compatible web browser. Install a
           compatible wallet like{" "}
-          <a href="https://metamask.io/" target="_blank">
+          <a href="https://metamask.io/" target="_blank" rel="noreferrer">
             Metamask
           </a>{" "}
           to make your browser web3 compatible.
@@ -26,7 +26,7 @@ const Instructions = () => {
         </li>
         <li>
           Acquire SepoliaEth for gas and transactions from{" "}
-          <a href="https://sepoliafaucet.com/" target="_blank">
+          <a href="https://sepoliafaucet.com/" target="_blank" rel="noreferrer">
             sepolia faucet
           </a>{" "}
           for free.
@@ -40,6 +40,7 @@ const Instructions = () => {
           <a
             href="https://support.metamask.io/hc/en-us/articles/6356387482523-How-to-use-the-MetaMask-Mobile-Browser"
             target="_blank"
+            rel="noreferrer"
           >
             instructions.
           </a>
