@@ -36,6 +36,15 @@ const Instructions = () => {
           your wallet to interact with the smart contract.
         </li>
         <li>
+          If you are accessing the dapp using moblie phones, follow these{" "}
+          <a
+            href="https://support.metamask.io/hc/en-us/articles/6356387482523-How-to-use-the-MetaMask-Mobile-Browser"
+            target="_blank"
+          >
+            instructions.
+          </a>
+        </li>
+        <li>
           Enter the amount you wish to send to the smart contract in the input.
           (Remember that the sepolia faucet only gives 0.5 sepoliaEth a day to a
           user, so your amount should be less than 0.5 sepoliaEth and should
