@@ -1,0 +1,9 @@
+.pay-input:focus {
+  border: #fff;
+}
+.pay-input {
+  color: #000;
+}
+.pay-btn {
+  margin-left: 5px;
+}
