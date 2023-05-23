@@ -4,7 +4,7 @@ import "./Instructions.css";
 const Instructions = () => {
   return (
     <div className="instructions-wrapper">
-      <p>Instruction on how to use the website:</p>
+      <p>Instructions on how to use the website:</p>
       <ol type="1">
         <li>
           This is a decentralized application through which users can perform
@@ -20,11 +20,6 @@ const Instructions = () => {
           to make your browser web3 compatible.
         </li>
         <li>
-          Our dapp runs on sepolia test network. Switch to sepolia test network
-          in Metamask. If you can't find sepolia test network in metamask, click
-          on show/hide test network.
-        </li>
-        <li>
           Acquire SepoliaEth for gas and transactions from{" "}
           <a href="https://sepoliafaucet.com/" target="_blank" rel="noreferrer">
             sepolia faucet
@@ -32,11 +27,7 @@ const Instructions = () => {
           for free.
         </li>
         <li>
-          Connect your wallet to the dapp using the Connect button. This enables
-          your wallet to interact with the smart contract.
-        </li>
-        <li>
-          If you are accessing the dapp using moblie phones, follow these{" "}
+          If you are accessing the dapp using moblie devices, follow these{" "}
           <a
             href="https://support.metamask.io/hc/en-us/articles/6356387482523-How-to-use-the-MetaMask-Mobile-Browser"
             target="_blank"
@@ -44,6 +35,15 @@ const Instructions = () => {
           >
             instructions.
           </a>
+        </li>
+        <li>
+          Our dapp runs on sepolia test network. Switch to sepolia test network
+          in Metamask. If you can't find sepolia test network in metamask, click
+          on show/hide test network.
+        </li>
+        <li>
+          Connect your wallet to the dapp using the Connect button. This enables
+          your wallet to interact with the smart contract.
         </li>
         <li>
           Enter the amount you wish to send to the smart contract in the input.
